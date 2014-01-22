@@ -16,6 +16,7 @@
 
 - (void)viewDidLoad
 {
+    NSLog(@"HII THARE!!!");
     [super viewDidLoad];
     
 }
