@@ -18,6 +18,7 @@
 		3D2FB37918905FC70093853E /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D2FB37818905FC70093853E /* Default-568h@2x.png */; };
 		3D2FB37C18905FC70093853E /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D2FB37A18905FC70093853E /* MainStoryboard.storyboard */; };
 		3D2FB37F18905FC70093853E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D2FB37E18905FC70093853E /* ViewController.m */; };
+		59733E211891AC6400779C48 /* ViewControllerTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 59733E201891AC6400779C48 /* ViewControllerTest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +38,8 @@
 		3D2FB37B18905FC70093853E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		3D2FB37D18905FC70093853E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		3D2FB37E18905FC70093853E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		59733E1F1891AC6400779C48 /* ViewControllerTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewControllerTest.h; sourceTree = "<group>"; };
+		59733E201891AC6400779C48 /* ViewControllerTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewControllerTest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +59,8 @@
 		3D2FB35618905FC70093853E = {
 			isa = PBXGroup;
 			children = (
+				59733E1F1891AC6400779C48 /* ViewControllerTest.h */,
+				59733E201891AC6400779C48 /* ViewControllerTest.m */,
 				3D2FB36818905FC70093853E /* View Practice */,
 				3D2FB36118905FC70093853E /* Frameworks */,
 				3D2FB36018905FC70093853E /* Products */,
@@ -176,6 +181,7 @@
 				3D2FB36F18905FC70093853E /* main.m in Sources */,
 				3D2FB37318905FC70093853E /* AppDelegate.m in Sources */,
 				3D2FB37F18905FC70093853E /* ViewController.m in Sources */,
+				59733E211891AC6400779C48 /* ViewControllerTest.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -298,6 +304,7 @@
 				3D2FB38418905FC70093853E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
